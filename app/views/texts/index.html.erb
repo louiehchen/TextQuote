@@ -5,7 +5,7 @@
   </div>
 
   <div class="container" id="app-text-form">
-    <%= form_for @phone, url: 'text/send_text' do |f| %>
+    <%= form_for @phone, url: 'texts/send_text' do |f| %>
     <%= f.label :number, 'Enter Your Phone Number' %>
     <%= f.telephone_field :number, class: 'form-control', placeholder: '###-###-####' %><br>
     <%= f.submit 'Send Text', class: 'btn btn-primary' %>

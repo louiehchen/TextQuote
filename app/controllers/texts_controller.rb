@@ -1,4 +1,4 @@
-class Apps::TextsController < ApplicationController
+class TextsController < ApplicationController
 
   def index
     @phone = Phone.new
@@ -8,7 +8,7 @@ class Apps::TextsController < ApplicationController
     @phone = Phone.new(phone_params)
     @phone.send_sms(@phone.clean_number)
     @phone.save
-    redirect_to :back
+    redirect_to :root
   end
 
   private

@@ -1,5 +1,5 @@
 # README
 
-Simple app to text random quotes to you using Twilio
+Simple app to text random quotes via the quotey gem to you using Twilio's API.
 
 * 
