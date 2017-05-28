@@ -20,6 +20,5 @@
 # Ignore Byebug command history file.
 .byebug_history
 
-# Ignore keys and auth tokens.
-TWILIO_ACCT_SID: PN8585a6df12d821804086d5ad4d38bada
-TWILIO_AUTH: d472e70f284ba882ba501206043bf54b
+# Ignore application configuration
+/config/application.yml
